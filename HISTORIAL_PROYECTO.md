@@ -11,3 +11,4 @@
 
 - 24/10/26: Creación de la estructura base del repositorio, configuración del enterno virtual, implementación de dependencias base e inicialización del proyecto central de Django 8 (core).
 - 25/10/26: Creación de la app usuarios e inclusión en INSTALLED_APPS dentro de core/settings.py
+- 31/10/26: 

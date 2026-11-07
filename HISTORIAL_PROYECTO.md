@@ -9,6 +9,15 @@
 
 ## 2. Registro de sesiones y progreso
 
-- 24/10/26: Creación de la estructura base del repositorio, configuración del enterno virtual, implementación de dependencias base e inicialización del proyecto central de Django 8 (core).
-- 25/10/26: Creación de la app usuarios e inclusión en INSTALLED_APPS dentro de core/settings.py
-- 31/10/26: Creación de los modelos PerfilUsuario y ObjetivoUsuario; Hacer migraciones de los modelos; Creación de la app 'alimentos' para la gestión de los alimentos; Creación de modelo alimento y migración. 
+- **24/10/26:** 
+    -Creación de la estructura base del repositorio, configuración del enterno virtual, implementación de dependencias base e inicialización del proyecto central de Django 8 (core).
+- **25/10/26:**
+    -Creación de la app usuarios e inclusión en INSTALLED_APPS dentro de core/settings.py
+- **31/10/26:**
+    - Creación de los modelos PerfilUsuario y ObjetivoUsuario
+    - Hacer migraciones de los modelos
+    - Creación de la app 'alimentos' para la gestión de los alimentos
+    - Creación de modelo alimento y migración. 
+- **07/11/26:**
+    - Creacion de la app registros, creación de modelos Registro y Alimento consumido. 
+    - Registro de modelos en admin de Django

@@ -31,8 +31,8 @@ class Alimento(models.Model):
     estado = models.CharField(max_length=20, choices=ESTADO_CHOICES, default='APROBADO')
 
     #Usuario que propone el alimento y fotografía
-    creadord = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name='alimentos_creados')
+    creador = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name='alimentos_creados')
     foto = models.ImageField(upload_to='alimentos/', null=True, blank=True)
 
     def __str__(self):
-        return f'{self.nombre} ({self.calorías}) kcal/100g'
+        return f'{self.nombre} ({self.calorias}) kcal/100g'

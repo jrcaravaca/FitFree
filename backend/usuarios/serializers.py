@@ -1,8 +1,8 @@
 from rest_framework import serializers
 from .models import PerfilUsuario, ObjetivoUsuario
 
-class PerfilUsuarioSerializer(serlizares.ModelSerializer):
-    username = serializers.ReadOnlyFields(source='usuario.username')
+class PerfilUsuarioSerializer(serializers.ModelSerializer):
+    username = serializers.ReadOnlyField(source='usuario.username')
 
     class Meta: 
         model = PerfilUsuario
@@ -13,13 +13,13 @@ class PerfilUsuarioSerializer(serlizares.ModelSerializer):
             'peso',
             'altura',
             'sexo',
-            'nviel_actividad'
+            'nivel_actividad'
         ]
         read_only_fields = ['id', 'username']
 
 
 class ObjetivoUsuarioSerializer(serializers.ModelSerializer): 
-    username = serializers.ReadOnlyFields(source='usuario.username')
+    username = serializers.ReadOnlyField(source='usuario.username')
 
     class Meta: 
         model = ObjetivoUsuario

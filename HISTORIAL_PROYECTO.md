@@ -25,5 +25,6 @@
     - Pruebas de funcionamiento
 -   **09/11/26:**
     - Creada la vista 'AlimentoDetailView' basada en 'RetrieveUpdateDestroyAPIView', registrar ruta dinámica y probar respuesta buscando elementos adicionales en la API navegable de DRF
-    - Creado serilizer para la app usuarios
+    - Creado serilizerS para la app usuarios (PerfilUsuarioSerializer y ObjetivoUsuarioSerializer)
+    - Implementación de vistas DRF y enrutamiento. 
     

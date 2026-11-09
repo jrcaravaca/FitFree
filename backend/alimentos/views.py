@@ -6,3 +6,7 @@ class AlimentoListCreateView(generics.ListCreateAPIView):
     queryset = Alimento.objects.filter(estado='APROBADO')
     serializer_class = AlimentoSerializer
 
+class AlimentoDetailView(generics.RetrieveUpdateDestroyAPIView): 
+    queryset = Alimento.objects.all()
+    serializer_class = AlimentoSerializer
+

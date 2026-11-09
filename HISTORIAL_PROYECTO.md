@@ -18,6 +18,11 @@
     - Hacer migraciones de los modelos
     - Creación de la app 'alimentos' para la gestión de los alimentos
     - Creación de modelo alimento y migración. 
-- **07/11/26:**
+- 
     - Creacion de la app registros, creación de modelos Registro y Alimento consumido. 
     - Registro de modelos en admin de Django
+    - Implementación de Django Rest Framework, creacion de la primera vista de la API y enlazado mediante urls.
+    - Pruebas de funcionamiento
+-   **09/11/26:**
+    - Creada la vista 'AlimentoDetailView' basada en 'RetrieveUpdateDestroyAPIView', registrar ruta dinámica y probar respuesta buscando elementos adicionales en la API navegable de DRF
+    

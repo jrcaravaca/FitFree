@@ -27,4 +27,7 @@
     - Creada la vista 'AlimentoDetailView' basada en 'RetrieveUpdateDestroyAPIView', registrar ruta dinámica y probar respuesta buscando elementos adicionales en la API navegable de DRF
     - Creado serilizerS para la app usuarios (PerfilUsuarioSerializer y ObjetivoUsuarioSerializer)
     - Implementación de vistas DRF y enrutamiento. 
-    
+    **11/11/2026**
+    - Serializacion anidada, creados 'AlimentoConsumidoSerializer' y 'RegistroSerializer'
+    - Intregacion entre apps reutilizando 'AlimentoSerializer' en el campo de lectura 'alimento_detalle' para devolver la información
+    - Configurado 'many=True' sobre la relación invirtiendo el 'related_name='alimentos_consumidos' para devolver la lista de alimentos anidada dentro de cada comida

@@ -31,3 +31,6 @@
     - Serializacion anidada, creados 'AlimentoConsumidoSerializer' y 'RegistroSerializer'
     - Intregacion entre apps reutilizando 'AlimentoSerializer' en el campo de lectura 'alimento_detalle' para devolver la información
     - Configurado 'many=True' sobre la relación invirtiendo el 'related_name='alimentos_consumidos' para devolver la lista de alimentos anidada dentro de cada comida
+    - Creadas vistas para registros y alimentos consumidos
+    - Definidos endpoints para gestionar cabeceras y adicion/modificacion de items de alimentos consumidos por gramios
+    

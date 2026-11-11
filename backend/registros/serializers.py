@@ -12,7 +12,7 @@ class AlimentoConsumidoSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'alimento',
-            'alimento_consumido',
+            'alimento_detalle',
             'nombre_alimento',
             'cantidad_gramos'
         ]
@@ -23,7 +23,7 @@ class RegistroSerializer(serializers.ModelSerializer):
 
     class Meta: 
         model = Registro
-        field = [
+        fields = [
             'id',
             'usuario',
             'username',

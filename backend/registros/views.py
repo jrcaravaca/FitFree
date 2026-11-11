@@ -19,12 +19,12 @@ class RegistroListCreateView(generics.ListCreateAPIView):
         return queryset
 
 
-class RegistroDetailView(generics-RetrieveUpdateDestroyAPIView): 
+class RegistroDetailView(generics.RetrieveUpdateDestroyAPIView): 
     queryset = Registro.objects.all()
     serializer_class = RegistroSerializer
 
 
-class AlimentoConsumidoCreateView(generics.CreateAPIView): 
+class AlimentoConsumidoCreateView(generics.ListCreateAPIView): 
     queryset = AlimentoConsumido.objects.all()
     serializer_class = AlimentoConsumidoSerializer
 

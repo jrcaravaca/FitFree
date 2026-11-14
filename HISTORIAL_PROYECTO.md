@@ -36,3 +36,4 @@
     - Conectar urls de registros y habilitar endpoints más pruebas de funcionamiento
     **14/11/2026**
     - Añadir cálculo automatico de macronutrientes en registros
+    - Configuración de CORS para integración con Frontend

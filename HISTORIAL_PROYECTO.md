@@ -33,4 +33,6 @@
     - Configurado 'many=True' sobre la relación invirtiendo el 'related_name='alimentos_consumidos' para devolver la lista de alimentos anidada dentro de cada comida
     - Creadas vistas para registros y alimentos consumidos
     - Definidos endpoints para gestionar cabeceras y adicion/modificacion de items de alimentos consumidos por gramios
-    
+    - Conectar urls de registros y habilitar endpoints más pruebas de funcionamiento
+    **14/11/2026**
+    - Añadir cálculo automatico de macronutrientes en registros

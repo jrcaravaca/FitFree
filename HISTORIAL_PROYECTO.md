@@ -37,3 +37,4 @@
     **14/11/2026**
     - Añadir cálculo automatico de macronutrientes en registros
     - Configuración de CORS para integración con Frontend
+    - Instalación y configuración de SimplJWT y habilitados sus endpoints para la creación y refresco de tokens de acceso

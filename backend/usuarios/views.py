@@ -3,7 +3,7 @@ from rest_framework import generics, permissions
 from .models import PerfilUsuario, ObjetivoUsuario
 from .serializers import PerfilUsuarioSerializer, ObjetivoUsuarioSerializer, RegistroUsuarioSerializer
 
-class RegistroUsuarioView(generics.CreateApiView): 
+class RegistroUsuarioView(generics.CreateAPIView): 
     queryset = User.objects.all()
     serializer_class = RegistroUsuarioSerializer
     permission_classes = [permissions.AllowAny] #AllowAny, permite crear cuentas nuevas sin tener token de acceso previo

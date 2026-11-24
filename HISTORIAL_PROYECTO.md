@@ -38,3 +38,12 @@
     - Añadir cálculo automatico de macronutrientes en registros
     - Configuración de CORS para integración con Frontend
     - Instalación y configuración de SimplJWT y habilitados sus endpoints para la creación y refresco de tokens de acceso
+    **24/11/2026**
+    - Creado 'RegistroUsuarioSerializer' y 'RegistroUsuarioView' con generación automática de 'PerfilUsuario' y  'ObjetivoUsuario'
+    - Aislamiento de datos, protegiendo las rutas 'api/usuarios/perfil/' y 'api/usuarios/objetivo' con 'IsAuthenticated, resolviendo el objeto directamente desde 'request.user' sin exponer IDs en la URL
+    - Protegidos el endpoint de registros con 'IsAuthenticated'
+    - Filtrado de querysets por 'request.user' e inyeccion automática del usuario autenticado mediante 'perform_create'
+    - Añadida comprobación en 'AlimentoConsumidoCreateView' para impedir asociar alimentos a comidas de otros usuarios
+
+    
+    

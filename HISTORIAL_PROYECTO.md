@@ -46,5 +46,6 @@
     - Añadida comprobación en 'AlimentoConsumidoCreateView' para impedir asociar alimentos a comidas de otros usuarios
     **26/11/2026**
     - Configurado 'IsAuthenticatedOrReadOnly' en views de alimentos para proteger la escritura en el catálogo nutricional y añadido filtrado por parámetro '?search=' y ordenación alfábetica en el listado de alimentos
-    
+    - Creado proyecto frontend (React + TS + TailwindCSS), instalados 'axios', 'react-router-dom', 'lucide-react' y 'tailwindcss', además de integrar el plugin de Tailwind en la configuración de vite y comprobado que todo arranque y funcione
+
     

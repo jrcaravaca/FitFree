@@ -44,6 +44,7 @@
     - Protegidos el endpoint de registros con 'IsAuthenticated'
     - Filtrado de querysets por 'request.user' e inyeccion automática del usuario autenticado mediante 'perform_create'
     - Añadida comprobación en 'AlimentoConsumidoCreateView' para impedir asociar alimentos a comidas de otros usuarios
-
+    **26/11/2026**
+    - Configurado 'IsAuthenticatedOrReadOnly' en views de alimentos para proteger la escritura en el catálogo nutricional y añadido filtrado por parámetro '?search=' y ordenación alfábetica en el listado de alimentos
     
     
